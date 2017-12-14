@@ -11,14 +11,14 @@
   ],
   "require": {
     "php": "^5.3.3 || ^7.0",
-    "nmgtxkj/toolbox": "~1.0"
+    "nmgtxkj/toolbox": "~1.0.6"
   },
   "autoload": {
     "psr-4": {
       "toolbox\\": "src"
     },
     "files": [
-      "src/audoloader.php"
+      "src/autoloader.php"
     ]
   }
 }
