@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "1d1533a367d739695655e473b834faf7",
+    "content-hash": "7a6ce9eebf2e651633882ce0c836ed51",
+    "packages": [
+        {
+            "name": "nmgtxkj/toolbox",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DanielZhao1990/php-toolbox.git",
+                "reference": "f74776d76dc57d114c40292b5cd8d89c4e6007cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/DanielZhao1990/php-toolbox/f74776d76dc57d114c40292b5cd8d89c4e6007cb.zip",
+                "reference": "f74776d76dc57d114c40292b5cd8d89c4e6007cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "toolbox\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MPL"
+            ],
+            "authors": [
+                {
+                    "name": "danielzhao",
+                    "email": "zhao0829wang@163.com"
+                }
+            ],
+            "description": "my php toolbox",
+            "time": "2017-12-14 01:25:44"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^5.3.3 || ^7.0"
+    },
+    "platform-dev": []
+}

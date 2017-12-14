@@ -1,0 +1,24 @@
+{
+  "name": "nmgtxkj/txkj-workerman",
+  "description": "txkj-workerman",
+  "type": "library",
+  "license": "MPL",
+  "authors": [
+    {
+      "name": "danielzhao",
+      "email": "zhao0829wang@163.com"
+    }
+  ],
+  "require": {
+    "php": "^5.3.3 || ^7.0",
+    "nmgtxkj/toolbox": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "toolbox\\": "src"
+    },
+    "files": [
+      "src/audoloader.php"
+    ]
+  }
+}
