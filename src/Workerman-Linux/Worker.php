@@ -456,7 +456,7 @@ class Worker
 
         // Pid file.
         if (empty(self::$pidFile)) {
-            self::$pidFile = __DIR__ . "/tp5-workerman/" . str_replace('/', '_', self::$_startFile) . ".pid";
+            self::$pidFile = __DIR__ . str_replace('/', '_', self::$_startFile) . ".pid";
         }
 
         // Log file.
